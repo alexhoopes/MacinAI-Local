@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Model and weight files
+*.bin
+*.gguf
+*.safetensors
+models/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Backup files
+*.bak
+
+# CodeWarrior / build output
+*.o
+*.pef
+*.xSYM
+*.mwb
+*.tmp
+client/build/
+installer/build/
+
+# Local testing
+tmp/
+scratch/
